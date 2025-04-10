@@ -66,7 +66,7 @@
 <header>
     <h1>Телефон HONOR X9C</h1>
     <p>Узнайте все характеристики устройства, нажав на кнопку ниже!</p>
-    <button class="button" onclick="showSpecs()">Перейти к характеристикам</button>
+    <button class="button" id="showSpecsBtn">Перейти к характеристикам</button>
 </header>
 
 <section id="specs">
@@ -78,4 +78,23 @@
         <li><strong>Фронтальная камера:</strong> 16 МП</li>
         <li><strong>Память:</strong> 6/8 ГБ ОЗУ, 128 ГБ/256 ГБ встроенной памяти</li>
         <li><strong>Аккумулятор:</strong> 4800 мАч, зарядка 66 Вт</li>
-        <li><strong>ОС:</strong> Android 12 с Magic UI 6
+        <li><strong>ОС:</strong> Android 12 с Magic UI 6.0</li>
+        <li><strong>Цвета:</strong> Черный, синий, серебристый</li>
+        <li><strong>Подключения:</strong> 5G, Wi-Fi 6, Bluetooth 5.1</li>
+        <li><strong>Размеры:</strong> 163.5 x 74.9 x 8.1 мм</li>
+        <li><strong>Вес:</strong> 189 г</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 HONOR. Все права защищены.</p>
+</footer>
+
+<script>
+    document.getElementById('showSpecsBtn').addEventListener('click', function() {
+        document.getElementById('specs').style.display = 'block';
+    });
+</script>
+
+</body>
+</html>
